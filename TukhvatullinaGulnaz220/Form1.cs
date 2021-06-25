@@ -44,5 +44,23 @@ namespace TukhvatullinaGulnaz220
                 e.Handled = true;
             }
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            int money = Convert.ToInt32(textBox1.Text);
+            if (money > 500000)
+            {
+                MessageBox.Show("Превышено ограничение");
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            int money2 = Convert.ToInt32(textBox2.Text);
+            if (money2 > 365)
+            {
+                MessageBox.Show("Превышено ограничение");
+            }
+        }
     }
 }
