@@ -114,9 +114,9 @@ namespace TukhvatullinaGulnaz220
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(385, 36);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(126, 13);
+            this.label6.Size = new System.Drawing.Size(89, 13);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Общая сумма выплаты";
+            this.label6.Text = "Сумма выплаты";
             // 
             // textBox5
             // 

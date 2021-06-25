@@ -29,7 +29,20 @@ namespace TukhvatullinaGulnaz220
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox5.Text = textBox4.Text;
+            int text1 = Convert.ToInt32(textBox1.Text);
+            if (textBox4.Text == "0.90")
+            {
+                textBox5.Text = (text1 + 90).ToString();
+            }
+            if (textBox4.Text == "0.70")
+            {
+                textBox5.Text = (text1 + 70).ToString();
+            }
+            if (textBox4.Text == "0.60")
+            {
+                textBox5.Text = (text1 + 60).ToString();
+            }
+
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
