@@ -58,7 +58,7 @@ namespace TukhvatullinaGulnaz220
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(229, 286);
+            this.button1.Location = new System.Drawing.Point(236, 281);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 32);
             this.button1.TabIndex = 1;
